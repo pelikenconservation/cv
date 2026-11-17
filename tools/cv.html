@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8">
+<title>Kenneth Manuel — Curriculum vitae</title>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300..600;1,9..144,300..600&family=IBM+Plex+Mono:wght@400;500&family=Instrument+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+@page{size:A4;margin:0}
+*{box-sizing:border-box}
+:root{--paper:#f4f0e6;--ink:#17201b;--ink2:#3b463f;--muted:#76806f;--line:#d9d3c2;--forest:#1e4a3a;--forest2:#123025;--ember:#c26a2a;
+--display:'Fraunces',Georgia,serif;--sans:'Instrument Sans',system-ui,sans-serif;--mono:'IBM Plex Mono',ui-monospace,Consolas,monospace}
+html,body{margin:0;background:#fff;-webkit-print-color-adjust:exact;print-color-adjust:exact}
+body{font-family:var(--sans);color:var(--ink);font-size:8.6pt;line-height:1.42}
+.page{width:210mm;height:297mm;position:relative;overflow:hidden;background:var(--paper);page-break-after:always;break-after:page;display:flex;flex-direction:column}
+.page:last-child{page-break-after:auto;break-after:auto}
+a{color:inherit;text-decoration:none}
+em{font-style:italic}
+.mono{font-family:var(--mono);font-size:7pt;letter-spacing:.14em;text-transform:uppercase}
+
+.top{background:var(--forest2);color:#f4f0e6;padding:11mm 15mm 8mm;position:relative}
+.top::after{content:"";position:absolute;left:0;right:0;bottom:0;height:1.2mm;background:var(--ember)}
+.top .mono{color:#a9c4b4}
+.top h1{font-family:var(--display);font-weight:400;font-size:30pt;line-height:1;letter-spacing:-.015em;margin:4mm 0 2.5mm}
+.top h1 em{color:#e9a56a}
+.top .role{font-family:var(--display);font-size:11.5pt;color:#d9e3dc;margin:0}
+.contacts{display:flex;gap:7mm;margin-top:4.5mm;font-family:var(--mono);font-size:7.2pt;letter-spacing:.06em;color:#e9a56a;flex-wrap:wrap}
+.slim{background:var(--forest2);color:#a9c4b4;padding:6mm 15mm;display:flex;justify-content:space-between;position:relative}
+.slim::after{content:"";position:absolute;left:0;right:0;bottom:0;height:1mm;background:var(--ember)}
+.slim b{font-family:var(--display);font-weight:400;font-size:12pt;color:#f4f0e6;letter-spacing:0;text-transform:none}
+
+.cols{display:grid;grid-template-columns:1fr 56mm;gap:0 9mm;padding:6mm 15mm 0;flex:1}
+.label{font-family:var(--mono);font-size:7pt;letter-spacing:.14em;text-transform:uppercase;color:var(--ember);margin:0 0 3mm;padding-bottom:1.6mm;border-bottom:1px solid var(--line)}
+.side .label{margin-top:5.5mm}.side .label:first-child{margin-top:0}
+.sum{font-family:var(--display);font-size:10.4pt;line-height:1.45;color:var(--forest2);margin:0 0 5.5mm}
+
+.job{margin:0 0 3mm;padding-left:4mm;position:relative}
+.job::before{content:"";position:absolute;left:0;top:1.5mm;width:1.8mm;height:1.8mm;border-radius:50%;background:var(--ember)}
+.job h3{margin:0;font-family:var(--display);font-weight:500;font-size:10.2pt;line-height:1.25}
+.job .org{color:var(--forest);font-weight:600;font-size:8.6pt}
+.job .when{font-family:var(--mono);font-size:6.8pt;letter-spacing:.06em;color:var(--muted);text-transform:uppercase;margin:.4mm 0 1.2mm}
+.job ul{margin:0;padding:0;list-style:none}
+.job li{position:relative;padding-left:3.2mm;color:var(--ink2);font-size:8.2pt;line-height:1.38}
+.job li::before{content:"–";position:absolute;left:0;color:var(--muted)}
+
+.side .it{margin:0 0 2.8mm;font-size:8.2pt;color:var(--ink2);line-height:1.35}
+.side .it b{display:block;font-family:var(--display);font-weight:500;font-size:9.4pt;color:var(--ink);line-height:1.25}
+.side .it span{font-family:var(--mono);font-size:6.6pt;color:var(--muted);letter-spacing:.05em}
+.side ul{list-style:none;margin:0;padding:0}
+.side li{font-size:8pt;color:var(--ink2);line-height:1.35;padding:0 0 1.5mm 3mm;position:relative}
+.side li::before{content:"";position:absolute;left:0;top:1.5mm;width:1.3mm;height:1.3mm;border-radius:50%;background:var(--forest)}
+.chips{display:flex;flex-wrap:wrap;gap:1.4mm}
+.side .chips li{padding:.7mm 2.3mm;border:1px solid var(--line);border-radius:5mm;background:#fff;font-size:7.4pt}
+.side .chips li::before{display:none}
+.more{margin:0 0 4mm}
+.more li{position:relative;padding:0 0 1.2mm 3.2mm;list-style:none;font-size:8.2pt;color:var(--ink2);line-height:1.35}
+.more li::before{content:"–";position:absolute;left:0;color:var(--muted)}
+.more{padding:0;columns:2;column-gap:6mm}.more li{break-inside:avoid}
+.pub{margin:0 0 2mm;font-size:8.3pt;color:var(--ink2);line-height:1.38}
+.pub b{font-family:var(--display);font-weight:500;color:var(--ink);font-size:9.3pt}
+.pub span{font-family:var(--mono);font-size:6.6pt;color:var(--ember);letter-spacing:.08em;text-transform:uppercase;display:block}
+.note{font-size:7.4pt;color:var(--muted);line-height:1.4}
+.foot{margin:0 15mm;padding:3.5mm 0 6.5mm;border-top:1px solid var(--line);display:flex;justify-content:space-between;color:var(--muted)}
+</style></head>
+<body>
+
+<section class="page">
+  <div class="top">
+    <div class="mono">Curriculum vitae</div>
+    <h1>Kenneth <em>Manuel</em></h1>
+    <p class="role">Marine &amp; wildlife conservation researcher and photographer</p>
+    <div class="contacts"><span>kenmanuel02.12@gmail.com</span><span>Philippines // United Kingdom</span></div>
+  </div>
+  <div class="cols">
+    <div class="main">
+      <p class="sum">Cetaceans, birds and locally driven conservation. Twelve research roles across the Philippines, the UK and Europe, in marine and terrestrial ecosystems. Currently leading <em>The Search for Luzon&rsquo;s Lost Bird</em> and studying for an MSc in Marine Mammal Science at the University of St Andrews.</p>
+      <div class="label">Work experience</div>
+
+      <div class="job"><h3>Principal Investigator &amp; Project Lead</h3><div class="org">The Search for Luzon&rsquo;s Lost Bird Project</div><div class="when">2026 – present // Nueva Vizcaya, Philippines</div>
+        <ul><li>Conceived the research concept and co-developed the proposal; funded by the Oriental Bird Club Conservation Grant.</li>
+        <li>Led a multidisciplinary study of the status and distribution of the Luzon Buttonquail and Luzon Rail: transects, camera traps, passive acoustic monitoring, mist-netting and community interviews.</li>
+        <li>Built partnerships with the Kalahan Educational Foundation, NTFP-EP Asia and the Municipality of Santa Fe; first author of the project report.</li></ul></div>
+
+      <div class="job"><h3>Research Technician</h3><div class="org">Polytechnic University of the Philippines</div><div class="when">2026 // General Nakar, Philippines</div>
+        <ul><li>Supported undergraduate thesis research with ornithological surveys and biodiversity assessments; helped standardise survey methods.</li></ul></div>
+
+      <div class="job"><h3>Research Assistant</h3><div class="org">Newcastle University</div><div class="when">2026 // Subic, Philippines</div>
+        <ul><li>Supported postgraduate field research on arboreal mammal habitat use and disturbance; translation and coordination with local guides.</li></ul></div>
+
+      <div class="job"><h3>Research Assistant – Ornithologist</h3><div class="org">Biodiversity Foundation of the Philippines, Inc.</div><div class="when">2026 // Biliran, Philippines</div>
+        <ul><li>Line transects, point counts and mist-netting in remote montane habitats; contributed data and photographs to a local flora and fauna field guide.</li></ul></div>
+
+      <div class="job"><h3>Marine Mammal Surveyor and Researcher</h3><div class="org">GEOSPHERE Technologies, Inc.</div><div class="when">2024 – 2025 // Bicol, Philippines</div>
+        <ul><li>Monthly offshore and coastal surveys for the Philippines&rsquo; first offshore wind farm: Irrawaddy dolphin habitat use, distribution and behaviour.</li>
+        <li>Fisher interviews; contributed to biodiversity assessments and mitigation recommendations.</li></ul></div>
+
+      <div class="job"><h3>Researcher – Ornithology</h3><div class="org">NIRAS</div><div class="when">2024 – 2025 // Bicol, Philippines</div>
+        <ul><li>Twice-monthly, 12-hour vantage point surveys over 12 months around a proposed offshore wind farm.</li>
+        <li>Recorded abundance, flight direction, altitude and behaviour of raptors, seabirds, shorebirds and species of conservation concern.</li></ul></div>
+    </div>
+
+    <aside class="side">
+      <div class="label">Education</div>
+      <div class="it"><b>MSc Marine Mammal Science</b>University of St Andrews<br><span>2026 – 2027</span></div>
+      <div class="it"><b>BSc (Hons) Ecology and Conservation</b>Lancaster University, with study abroad at Macquarie University<br><span>2017 – 2021 // Upper Second-Class</span></div>
+
+      <div class="label">Certifications</div>
+      <ul>
+        <li>JNCC Marine Mammal Observer</li>
+        <li>PAM &amp; PAMGUARD Software Training</li>
+        <li>RYA Level 2 Powerboat Handling</li>
+        <li>STCW Basic Training</li>
+        <li>Medical Certificate for Service at Sea</li>
+        <li>Drone Certificate – A1/A3 Open Category</li>
+        <li>ORCA: Marine Mammal Surveyor Course</li>
+        <li>Sea Watch Foundation: Cetacean Surveyor Course</li>
+        <li>Bird Watching Guides Training</li>
+      </ul>
+
+      <div class="label">Technical skills</div>
+      <ul class="chips"><li>QGIS</li><li>R</li><li>Drone operations</li><li>Camera trapping</li><li>Wildlife photography</li><li>Theodolite tracking</li><li>Bird identification</li><li>Cetacean photo-ID</li></ul>
+
+      <div class="label">Languages</div>
+      <ul class="chips"><li>English</li><li>Tagalog (Filipino)</li></ul>
+    </aside>
+  </div>
+  <div class="foot mono"><span>Kenneth Manuel // CV</span><span>1 / 2</span></div>
+</section>
+
+<section class="page">
+  <div class="slim mono"><b>Kenneth Manuel</b><span>Curriculum vitae // continued</span></div>
+  <div class="cols">
+    <div class="main">
+      <div class="label">Work experience, continued</div>
+
+
+      <div class="job"><h3>Junior Biodiversity Specialist (Avian)</h3><div class="org">GRIDS, Inc.</div><div class="when">2025 // Mindoro, Philippines</div>
+        <ul><li>Twice-daily surveys along a 2-km line transect; mist-netting of birds and bats; small mammal and herpetofaunal trapping.</li></ul></div>
+
+
+      <div class="job"><h3>Marine Mammal Research Intern</h3><div class="org">Balyena.org</div><div class="when">2024 // Camiguin Island, Babuyan Islands, Philippines</div>
+        <ul><li>Humpback whale research expeditions: surveys, photo-identification data and equipment maintenance.</li>
+        <li>Digitised and compiled 20 years of cetacean sighting records; co-authored a poster for the 2024 Society for Marine Mammalogy Conference.</li>
+        <li>Assisted a live stranding response (dwarf sperm whale, <em>Kogia sima</em>) and a necropsy of a 13.6-metre sperm whale (<em>Physeter macrocephalus</em>).</li></ul></div>
+
+      <div class="job"><h3>Marine Mammal Research Intern</h3><div class="org">CIRCE (Conservation, Information and Study of Cetaceans)</div><div class="when">2023 // El Pelayo, Spain</div>
+        <ul><li>Cetacean research expeditions, photo-identification and field equipment maintenance.</li></ul></div>
+
+      <div class="job"><h3>Marine Mammal Research Intern</h3><div class="org">Deutsches Meeresmuseum and Thünen Institute</div><div class="when">2023 // Fyns Hoved, Denmark</div>
+        <ul><li>PAL-CE project on acoustic deterrent devices to reduce harbour porpoise bycatch in the Baltic Sea.</li>
+        <li>Land-based behavioural observations with theodolite tracking and drone footage; hydrophone data; field data management.</li></ul></div>
+
+      <div class="job"><h3>Educational and Outreach Assistant</h3><div class="org">Sea Watch Foundation</div><div class="when">2022 // New Quay, Wales</div>
+        <ul><li>Managed daily visitor centre operations; delivered workshops and presentations on marine conservation.</li>
+        <li>Led boat-based wildlife surveys, developed educational materials and managed social media.</li></ul></div>
+
+      <div class="job"><h3>Marine Mammal Research Intern</h3><div class="org">Sea Watch Foundation</div><div class="when">2022 // New Quay, Wales</div>
+        <ul><li>Boat-based cetacean surveys and landwatch surveys; photo-identification, data entry and management; public engagement and fundraising support.</li></ul></div>
+
+      <div class="label" style="margin-top:6mm">Additional experience</div>
+      <ul class="more">
+        <li>Fauna Researcher Volunteer – AGHAM (2026)</li>
+        <li>Research Volunteer &amp; Wildlife Photographer – Island Biodiversity Conservation (2026)</li>
+        <li>Bird Watching Guide – Wild Bird Club of the Philippines (2026)</li>
+        <li>Volunteer Avian Surveyor – Asian Water Bird Census (2026)</li>
+        <li>Research Volunteer &amp; Wildlife Photographer – Philippine Eagle Foundation (2025)</li>
+        <li>Wildlife Tour Guide &amp; Deckhand – Dolphin Spotting Boat Trips (2022)</li>
+        <li>Project Leader – Makativille Elementary School Covid-19 Relief Project (2021)</li>
+      </ul>
+    </div>
+
+    <aside class="side">
+      <div class="label">Honors &amp; awards</div>
+      <ul>
+        <li>University of St Andrews – Discretionary Fund Award (2026–27)</li>
+        <li>Oriental Bird Club – Conservation Grant Award (2026)</li>
+        <li>Society for Marine Mammalogy Conference – Poster Co-author (2024)</li>
+        <li>Dept. of Education Philippines – Certification of Appreciation, Covid-19 relief project (2021)</li>
+        <li>Lancaster University – Bursary Award (2017)</li>
+      </ul>
+
+
+
+      <div class="label">Publications &amp; press</div>
+      <div class="pub"><span>Field report // 2026</span><b>Searching for Luzon&rsquo;s Lost Birds</b> — NTFP-EP Asia, by Sunshine Telio</div>
+      <div class="pub"><span>Poster // 2024</span><b>Cetacean Diversity in the Babuyan Marine Corridor</b> — co-authored poster, Society for Marine Mammalogy Conference</div>
+
+      <div class="label">References</div>
+      <div class="it"><b>Mrs. Katrin Lohrengel</b>Monitoring Officer<br>Sea Watch Foundation</div>
+      <div class="it"><b>Mr. Estephen Fortela</b>Lead Researcher<br>NIRAS</div>
+      <p class="note">Contact details are available on request.</p>
+
+      <div class="label">Contact</div>
+      <div class="it"><b>kenmanuel02.12@gmail.com</b>Philippines // United Kingdom</div>
+    </aside>
+  </div>
+  <div class="foot mono"><span>Kenneth Manuel // CV</span><span>2 / 2</span></div>
+</section>
+</body></html>

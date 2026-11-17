@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js" data-tl="i18n/tl.js?v={{ver}}">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{{title}}</title>
+<meta name="description" content="{{desc}}">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Kenneth Manuel">
+<meta property="og:title" content="{{title}}">
+<meta property="og:description" content="{{desc}}">
+<meta property="og:image" content="images/birds/bird09.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="theme-color" content="#123025">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="preload" href="fonts/fraunces-normal-300-600-latin.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="fonts/instrument-sans-latin.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="styles.css">
+<script>
+(function(){var d=document.documentElement;d.classList.remove('no-js');var t,l;try{t=localStorage.getItem('theme');l=localStorage.getItem('lang')}catch(e){}
+if(/photography(\.html)?$/.test(location.pathname)){t='dark'}else if(!t){t=(window.matchMedia&&matchMedia('(prefers-color-scheme: dark)').matches)?'dark':'light'}
+d.setAttribute('data-theme',t);d.setAttribute('data-lang',l==='tl'?'tl':'en');if(l==='tl')d.lang='tl'})();
+</script>
+</head>
+<body class="{{body}}">
+<a class="skip" href="#main">Skip to content</a>
+<div class="read-progress" aria-hidden="true"><i></i></div>
+
+<header class="site-header">
+  <a class="brand" href="index.html" aria-label="Kenneth Manuel, home">Kenneth Manuel</a>
+  <button class="nav-toggle" aria-label="Menu" aria-expanded="false" aria-controls="nav"><span></span><span></span></button>
+  <nav id="nav" class="nav" aria-label="Main">
+    <a href="work.html"{{nav:work}}>Work</a>
+    <a href="journey.html"{{nav:journey}}>Journey</a>
+    <a href="photography.html"{{nav:photography}}>Photography</a>
+    <a href="about.html"{{nav:about}}>About</a>
+    <div class="nav-tools" data-no-i18n>
+      <button class="tool-btn theme-toggle" type="button" aria-label="Switch to dark theme" aria-pressed="false"><span class="i-moon">{{icon:moon}}</span><span class="i-sun">{{icon:sun}}</span></button>
+      <div class="lang-switch" role="group" aria-label="Language"><button type="button" data-lang="en" aria-pressed="true">EN</button><button type="button" data-lang="tl" aria-pressed="false">TL</button></div>
+    </div>    <a class="nav-cta" href="contact.html"{{nav:contact}}>Contact</a>
+  </nav>
+</header>
+
+<main id="main">
+{{content}}
+</main>
+
+<section class="cta-band" aria-label="Get in touch">
+  {{bubbles}}
+  <div class="school" aria-hidden="true"><span>{{sil:tang}}</span><span>{{sil:tang}}</span><span class="flip">{{sil:snapper}}</span></div>
+  <div class="deco sil dk sil-cta" style="--h:150px" aria-hidden="true">{{sil:humpback}}</div>
+  <div class="wrap">
+    <p class="note light">Let&rsquo;s work together</p>
+    <h2>Have a project, survey or <em>story</em> in mind?</h2>
+    <div class="btn-row">
+      <a class="btn light" href="contact.html">Get in touch</a>
+      <a class="btn ghost-light plain" href="mailto:kenmanuel02.12@gmail.com">kenmanuel02.12@gmail.com</a>
+    </div>
+  </div>
+</section>
+
+<footer class="site-footer">
+  <div class="banig" aria-hidden="true"></div>
+  <div class="wrap">
+    <div>
+      <a class="brand" href="index.html">Kenneth Manuel</a>
+      <p>Marine &amp; wildlife conservation researcher and photographer, working between the Philippines and the UK.</p>
+    </div>
+    <div>
+      <h3>Explore</h3>
+      <ul>
+        <li><a href="work.html">Work</a></li>
+        <li><a href="luzons-lost-bird.html">Luzon&rsquo;s Lost Bird</a></li>
+        <li><a href="journey.html">Journey</a></li>
+        <li><a href="photography.html">Photography</a></li>
+      </ul>
+    </div>
+    <div>
+      <h3>Kenneth</h3>
+      <ul>
+        <li><a href="about.html">About</a></li>
+        <li><a href="cv.html">Curriculum vitae</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="mailto:kenmanuel02.12@gmail.com">Email</a></li>
+      </ul>
+    </div>
+    <div class="clocks" data-no-i18n aria-label="Local time">
+      <span>Mabuhay <i>//</i> welcome</span>
+      <span>San Pablo City <b data-tz="Asia/Manila">--:--</b></span>
+      <span>St Andrews <b data-tz="Europe/London">--:--</b></span>
+    </div>
+    <div class="base">
+      <span>&copy; <span id="year">2026</span> Kenneth Manuel</span>
+      <span>Photographs &copy; Kenneth Manuel / Peliken</span>
+      <span data-no-i18n>Site by Savely <i>//</i> <a href="mailto:hello@saveliybyzov.ru">hello@saveliybyzov.ru</a></span>
+    </div>
+  </div>
+</footer>
+
+<div class="lightbox" id="lightbox" hidden role="dialog" aria-modal="true" aria-label="Image viewer">
+  <button class="lb-close" aria-label="Close">&times;</button>
+  <button class="lb-prev" aria-label="Previous">&lsaquo;</button>
+  <figure><img alt=""><figcaption></figcaption></figure>
+  <button class="lb-next" aria-label="Next">&rsaquo;</button>
+</div>
+
+<script src="audio/index.js" defer></script>
+<script src="script.js" defer></script>
+<script src="critters.js" defer></script>
+{{scripts}}
+</body>
+</html>

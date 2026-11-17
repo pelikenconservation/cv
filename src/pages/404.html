@@ -1,0 +1,23 @@
+<!--meta title=Page not found — Kenneth Manuel | desc=This page could not be found. | page=none | body=no-cta -->
+<section class="lost">
+  <div class="deco sil" style="--h:190px;right:8%" aria-hidden="true">{{sil:buttonquail}}</div>
+  <div class="wrap">
+    <p class="note">404 // Off the map</p>
+    <h1>This trail goes <em>cold</em></h1>
+    <p class="lead" style="max-width:48ch;margin-bottom:1.6em">The page you&rsquo;re looking for has moved or never existed. Like a Luzon Buttonquail, it may still be out there &mdash; just not here.</p>
+    <div class="btn-row">
+      <a class="btn" href="index.html">Back to the start</a>
+      <a class="link" href="journey.html">Travel the journey</a>
+    </div>
+    <form class="lost-search" role="search" onsubmit="return false" style="margin-top:34px">
+      <label class="note" for="lost-q">Or look for something</label>
+      <input id="lost-q" type="search" placeholder="e.g. kingfisher, dolphin, CV, contact" autocomplete="off" data-no-i18n>
+      <ul id="lost-res" class="lost-res" aria-live="polite"></ul>
+    </form>
+    <script>
+    (function(){var P=[['Work','work.html','research roles surveys cetacean dolphin birds projects experience'],['Luzon’s Lost Bird','luzons-lost-bird.html','project buttonquail rail luzon field report conservation'],['Journey','journey.html','map travel route timeline stops interactive'],['Photography','photography.html','photos birds kingfisher wildlife gallery species peliken'],['About','about.html','story kenneth biography languages recovery'],['Curriculum vitae','cv.html','cv resume education references certifications'],['Contact','contact.html','email services collaborate hire message']];
+    var q=document.getElementById('lost-q'),r=document.getElementById('lost-res');function f(){var v=q.value.trim().toLowerCase();r.innerHTML='';var m=P.filter(function(p){return !v||(p[0]+' '+p[2]).toLowerCase().indexOf(v)>=0});if(!m.length){r.innerHTML='<li>Nothing like that here yet. Try “birds” or “map”.</li>';return}m.forEach(function(p){var li=document.createElement('li'),a=document.createElement('a');a.href=p[1];a.textContent=p[0];li.appendChild(a);r.appendChild(li)})}
+    q.addEventListener('input',f);f()})();
+    </script>
+  </div>
+</section>

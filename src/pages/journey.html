@@ -1,0 +1,41 @@
+<!--meta title=The Journey — Kenneth Manuel | desc=An interactive map of Kenneth Manuel's studies and fieldwork: 14 stops across the Philippines, the UK, Spain, Denmark and Australia. | page=journey | body= | scripts=data/world.js,journey.js -->
+<header class="page-head" style="padding-bottom:clamp(24px,3vw,40px)">
+  <div class="deco sil" style="--h:290px;right:3%" aria-hidden="true">{{sil:heron}}</div>
+  <div class="wrap">
+    <p class="note">The journey // an interactive CV</p>
+    <h1>Travel through the <em>work</em></h1>
+    <p class="lead">Each stop is a chapter of study, fieldwork or research. Use the buttons, the timeline or your arrow keys &mdash; or press play and watch the route unfold.</p>
+  </div>
+</header>
+
+<section class="sec tight alt" style="padding-top:clamp(20px,3vw,40px)">
+  <div class="wrap">
+    <div class="journey" id="journey">
+      <div class="stage" id="stage">
+        <svg id="jsvg" role="img" aria-label="Animated world map showing the route of Kenneth Manuel's studies and fieldwork"></svg>
+        <div class="legend" id="legend" aria-label="Legend"></div>
+        <p class="note coords" id="coords" aria-hidden="true"></p>
+      </div>
+      <aside class="panel" id="panel" aria-live="polite">
+        <div class="jp-kicker"><span class="note" id="jp-step"></span><span class="note" id="jp-years"></span></div>
+        <h2 id="jp-title"></h2>
+        <p class="jp-org" id="jp-org"></p>
+        <p class="note jp-place" id="jp-place"></p>
+        <p id="jp-text"></p>
+        <ul class="ticks" id="jp-bullets"></ul>
+        <div class="jp-tags" id="jp-tags"></div>
+        <div class="jp-links"><a class="link" id="jp-link" href="luzons-lost-bird.html" hidden></a><a class="link" id="jp-link2" href="luzons-lost-bird.html" hidden target="_blank" rel="noopener"></a></div>
+        <p class="note snd-note" id="snd-note" hidden></p>
+        <div class="jp-actions">
+          <button class="btn ghost plain" id="btn-prev" type="button">&larr; Back</button>
+          <button class="btn plain" id="btn-next" type="button">Start the journey &rarr;</button>
+          <button class="play place-snd" id="btn-sound" type="button" aria-pressed="false" data-no-i18n>Sound off</button>
+          <button class="play" id="btn-play" type="button" aria-pressed="false">&#9654; Play</button>
+        </div>
+      </aside>
+    </div>
+    <nav class="timeline" id="timeline" aria-label="Journey timeline"></nav>
+    <p class="note" style="margin-top:14px">Locations are approximate // <a href="cv.html">Prefer a classic CV?</a></p>
+    <noscript><p>This page needs JavaScript. See the <a href="cv.html">CV</a> for the full list of experience.</p></noscript>
+  </div>
+</section>

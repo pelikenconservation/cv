@@ -1,0 +1,32 @@
+humpback | Megaptera novaeangliae | fd8d3e5e-24a0-4aa2-9211-987ff86007dd | https://creativecommons.org/publicdomain/mark/1.0/ |  | https://www.phylopic.org/images/fd8d3e5e-24a0-4aa2-9211-987ff86007dd | 2610 bytes
+humpback2 | Megaptera novaeangliae | 012afb33-55c3-4fc6-9ae3-3a91fda32fd5 | https://creativecommons.org/publicdomain/zero/1.0/ |  | https://www.phylopic.org/images/012afb33-55c3-4fc6-9ae3-3a91fda32fd5 | 4133 bytes
+sperm | Physeter macrocephalus | 7a808331-75b4-4b5e-8399-4d6933313cd8 | https://creativecommons.org/publicdomain/zero/1.0/ | Margot Michaud | https://www.phylopic.org/images/7a808331-75b4-4b5e-8399-4d6933313cd8 | 3196 bytes
+dolphin | Tursiops truncatus | 6260355c-1f7b-491c-baa5-4268710276d6 | https://creativecommons.org/publicdomain/zero/1.0/ |  | https://www.phylopic.org/images/6260355c-1f7b-491c-baa5-4268710276d6 | 2303 bytes
+dolphin2 | Delphinidae | 19bdf10a-42b4-4736-9da8-c3171175fb0e | https://creativecommons.org/publicdomain/zero/1.0/ |  | https://www.phylopic.org/images/19bdf10a-42b4-4736-9da8-c3171175fb0e | 1938 bytes
+kingfisher | Alcedo atthis | 75458c84-36a3-4182-879b-105b1ccbc849 | https://creativecommons.org/publicdomain/zero/1.0/ | Margot Michaud | https://www.phylopic.org/images/75458c84-36a3-4182-879b-105b1ccbc849 | 5345 bytes
+kingfisher2 | Alcedo atthis | 632580ed-9bf0-4e01-b3b6-3cf31fcf417e | https://creativecommons.org/publicdomain/zero/1.0/ | Steven Traver | https://www.phylopic.org/images/632580ed-9bf0-4e01-b3b6-3cf31fcf417e | 4569 bytes
+heron | Ardea cinerea | 5d38ae89-8938-427d-ba49-3ae4cde0016c | https://creativecommons.org/publicdomain/zero/1.0/ |  | https://www.phylopic.org/images/5d38ae89-8938-427d-ba49-3ae4cde0016c | 4901 bytes
+rail | Rallidae | 7a4b472d-93f6-489e-a5e4-b81295a32e29 | https://creativecommons.org/publicdomain/zero/1.0/ | Michael Day | https://www.phylopic.org/images/7a4b472d-93f6-489e-a5e4-b81295a32e29 | 4970 bytes
+rail2 | Rallus | cd5ca1a2-b0a9-4ce9-b163-5c004e327d9d | https://creativecommons.org/publicdomain/zero/1.0/ | Ferran Sayol | https://www.phylopic.org/images/cd5ca1a2-b0a9-4ce9-b163-5c004e327d9d | 4387 bytes
+buttonquail | Turnix | 416ec8c6-0ed1-4c9f-b4a4-8c1ef6496e84 | https://creativecommons.org/publicdomain/mark/1.0/ |  | https://www.phylopic.org/images/416ec8c6-0ed1-4c9f-b4a4-8c1ef6496e84 | 6083 bytes
+robin | Erithacus rubecula | b0d54194-4105-4694-b670-b693df1640cf | https://creativecommons.org/publicdomain/zero/1.0/ | Anthony Caravaggi | https://www.phylopic.org/images/b0d54194-4105-4694-b670-b693df1640cf | 4678 bytes
+owl | Strigidae | 22f0b01e-0605-44b0-905f-b1c8d6817817 | https://creativecommons.org/publicdomain/zero/1.0/ | Rachel T Mason | https://www.phylopic.org/images/22f0b01e-0605-44b0-905f-b1c8d6817817 | 6680 bytes
+raptor | Accipitridae | 5c60ddac-1d35-498e-9556-d80cf137d944 | https://creativecommons.org/publicdomain/zero/1.0/ | Caleb M. Gordon | https://www.phylopic.org/images/5c60ddac-1d35-498e-9556-d80cf137d944 | 4850 bytes
+raptor2 | Accipitridae | c272f465-220d-47b5-8f3c-7750648bca1d | https://creativecommons.org/publicdomain/zero/1.0/ | Andy Wilson | https://www.phylopic.org/images/c272f465-220d-47b5-8f3c-7750648bca1d | 4734 bytes
+killer | Orcinus orca | c8cbec13-a69c-40d8-836b-902a6b1defcf | https://creativecommons.org/publicdomain/zero/1.0/ |  | https://www.phylopic.org/images/c8cbec13-a69c-40d8-836b-902a6b1defcf | 1832 bytes
+irrawaddy | Orcaella brevirostris | e513c0ec-d6ee-4adf-b46c-da3ea6d2b248 | https://creativecommons.org/licenses/by-sa/3.0/ | Chris huh | https://www.phylopic.org/images/e513c0ec-d6ee-4adf-b46c-da3ea6d2b248
+turtle | Chelonia mydas | 6cebfd77-1ad5-449f-8440-c6f9f18f41d8 | https://creativecommons.org/publicdomain/zero/1.0/ |  | https://www.phylopic.org/images/6cebfd77-1ad5-449f-8440-c6f9f18f41d8
+dugong | Dugong dugon | 5584723d-1756-48a0-8a0d-9bdb703d62ce | https://creativecommons.org/publicdomain/zero/1.0/ | Matthew Speight | https://www.phylopic.org/images/5584723d-1756-48a0-8a0d-9bdb703d62ce
+manta | Mobula | 10b40b65-3aa3-4fac-b4a1-f9523dc0863a | https://creativecommons.org/publicdomain/zero/1.0/ | M Kolmann | https://www.phylopic.org/images/10b40b65-3aa3-4fac-b4a1-f9523dc0863a
+whaleshark | Rhincodon typus | fc816f8b-005d-4414-b962-1b99ed5129fe | https://creativecommons.org/publicdomain/zero/1.0/ |  | https://www.phylopic.org/images/fc816f8b-005d-4414-b962-1b99ed5129fe
+spinner | Stenella | 22298a5b-06f8-4619-97d6-aaa54690264d | https://creativecommons.org/publicdomain/zero/1.0/ |  | https://www.phylopic.org/images/22298a5b-06f8-4619-97d6-aaa54690264d
+eagle | Aquilinae | 24ee88ff-c6aa-4e8b-9f0f-27c152eddaf0 | https://creativecommons.org/publicdomain/zero/1.0/ | Andy Wilson | https://www.phylopic.org/images/24ee88ff-c6aa-4e8b-9f0f-27c152eddaf0
+sunbird | Nectariniidae | 4276184c-5f6f-4723-a3c6-64a730a2f343 | https://creativecommons.org/publicdomain/zero/1.0/ | Ferran Sayol | https://www.phylopic.org/images/4276184c-5f6f-4723-a3c6-64a730a2f343
+dove | Columbidae | f0f6f353-32e7-4717-be55-58c36592afc1 | https://creativecommons.org/publicdomain/zero/1.0/ | Andy Wilson | https://www.phylopic.org/images/f0f6f353-32e7-4717-be55-58c36592afc1
+trogon | Trogonidae | 5be84622-31ef-4cc7-ab04-3078d7fe9c8a | https://creativecommons.org/publicdomain/zero/1.0/ | Andy Wilson | https://www.phylopic.org/images/5be84622-31ef-4cc7-ab04-3078d7fe9c8a
+flycatcher | Muscicapidae | 92e5161b-2f0b-4675-beea-5484a9b51788 | https://creativecommons.org/publicdomain/zero/1.0/ | Mathieu P�lissi� | https://www.phylopic.org/images/92e5161b-2f0b-4675-beea-5484a9b51788
+bulbul | Pycnonotidae | 251b8b20-5924-42b8-b4ae-6f46fcd9780a | https://creativecommons.org/publicdomain/mark/1.0/ |  | https://www.phylopic.org/images/251b8b20-5924-42b8-b4ae-6f46fcd9780a
+owl2 | Strigiformes | b4f3d9fb-4b03-4cba-89ee-039256936b6a | https://creativecommons.org/publicdomain/mark/1.0/ | John Gould & Henry C. Richter | https://www.phylopic.org/images/b4f3d9fb-4b03-4cba-89ee-039256936b6a
+heron2 | Egretta | afaed2dc-f0e9-442a-bae2-7ef437033356 | https://creativecommons.org/publicdomain/zero/1.0/ | Amanda Kuhlman | https://www.phylopic.org/images/afaed2dc-f0e9-442a-bae2-7ef437033356
+tang | Acanthuridae | 624eb565-4440-4328-872b-50150b310248 | CC0 | An Ignorant Atheist | https://www.phylopic.org/images/624eb565-4440-4328-872b-50150b310248
+snapper | Lutjanidae | 7a641a90-bf5c-43f0-8839-0eab34ddd3f3 | PDM 1.0 | | https://www.phylopic.org/images/7a641a90-bf5c-43f0-8839-0eab34ddd3f3

@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8">
+<title>The Search for Luzon's Lost Bird — Project brief</title>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300..600;1,9..144,300..600&family=IBM+Plex+Mono:wght@400;500&family=Instrument+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+@page{size:A4;margin:0}
+*{box-sizing:border-box}
+:root{--paper:#f4f0e6;--ink:#17201b;--ink2:#3b463f;--muted:#76806f;--line:#d9d3c2;--forest:#1e4a3a;--forest2:#123025;--ember:#c26a2a;
+--display:'Fraunces',Georgia,serif;--sans:'Instrument Sans',system-ui,sans-serif;--mono:'IBM Plex Mono',ui-monospace,Consolas,monospace}
+html,body{margin:0;background:#fff;-webkit-print-color-adjust:exact;print-color-adjust:exact}
+body{font-family:var(--sans);color:var(--ink);font-size:10.2pt;line-height:1.5}
+.page{width:210mm;height:297mm;position:relative;overflow:hidden;background:var(--paper);page-break-after:always;break-after:page;display:flex;flex-direction:column}
+.page:last-child{page-break-after:auto;break-after:auto}
+.mono{font-family:var(--mono);font-size:7.4pt;letter-spacing:.14em;text-transform:uppercase}
+em{font-style:italic}
+a{color:inherit;text-decoration:none}
+
+/* page 1 */
+.top{background:var(--forest2);color:#f4f0e6;padding:12mm 16mm 9mm;position:relative}
+.top .mono{color:#a9c4b4;display:flex;justify-content:space-between}
+.top h1{font-family:var(--display);font-weight:400;font-size:31pt;line-height:1.04;letter-spacing:-.015em;margin:7mm 0 3.5mm;max-width:150mm}
+.top h1 em{color:#e9a56a}
+.top .lead{font-size:11.2pt;line-height:1.5;max-width:140mm;color:#d9e3dc;margin:0}
+.photo{height:50mm;position:relative}
+.photo img{width:100%;height:100%;object-fit:cover;object-position:50% 38%;display:block}
+.photo::after{content:"";position:absolute;left:0;right:0;top:0;height:4px;background:var(--ember)}
+.photo .cap{position:absolute;left:16mm;bottom:3.5mm;color:#fff;text-shadow:0 1px 6px rgba(0,0,0,.7)}
+.meta{display:grid;grid-template-columns:repeat(4,1fr);gap:0;margin:0 16mm;border-bottom:1px solid var(--line)}
+.meta div{padding:5mm 4mm 5mm 0}
+.meta div+div{padding-left:4mm;border-left:1px solid var(--line)}
+.meta dt{font-family:var(--mono);font-size:6.8pt;letter-spacing:.14em;text-transform:uppercase;color:var(--muted);margin-bottom:1.5mm}
+.meta dd{margin:0;font-size:9.2pt;line-height:1.35;font-weight:500}
+.body1{padding:6mm 16mm 0;display:grid;grid-template-columns:44mm 1fr;gap:0 8mm;flex:1}
+.label{font-family:var(--mono);font-size:7.4pt;letter-spacing:.14em;text-transform:uppercase;color:var(--ember);padding-top:2mm}
+h2{font-family:var(--display);font-weight:400;font-size:19pt;line-height:1.12;letter-spacing:-.01em;margin:0 0 3.5mm}
+.big{font-family:var(--display);font-size:12.4pt;line-height:1.45;margin:0 0 3.5mm;color:var(--forest2)}
+p{margin:0 0 3mm;color:var(--ink2)}
+.species{display:grid;grid-template-columns:1fr 1fr;gap:5mm;margin-top:5mm}
+.sp{background:#fff;border-top:2px solid var(--forest);padding:4mm 4.5mm 4.2mm}
+.sp h3{font-family:var(--display);font-weight:400;font-size:13.5pt;margin:0}
+.sp i{font-family:var(--display);font-size:9.6pt;color:var(--muted);display:block;margin:.5mm 0 2mm}
+.sp p{margin:0;font-size:9pt}
+.row{display:grid;grid-template-columns:44mm 1fr;gap:0 8mm;margin-bottom:7mm}
+
+/* shared footer */
+.foot{margin:0 16mm;padding:4.5mm 0 8mm;border-top:1px solid var(--line);display:flex;justify-content:space-between;color:var(--muted)}
+
+/* page 2 */
+.p2{padding:11mm 16mm 0;flex:1}.p2 h2{font-size:16pt;margin-bottom:2.5mm}.p2 p{margin-bottom:2mm;font-size:9.4pt}
+.p2 .mono.k{color:var(--ember)}
+.methods{list-style:none;margin:3mm 0 0;padding:0;display:grid;grid-template-columns:1fr 1fr;gap:3mm 7mm}
+.methods li{display:grid;grid-template-columns:9mm 1fr;align-items:start}
+.methods li::before{content:attr(data-n);font-family:var(--mono);font-size:8pt;color:var(--ember);padding-top:1mm}
+.methods b{display:block;font-family:var(--display);font-weight:500;font-size:11pt}
+.methods span{font-size:9pt;color:var(--ink2);line-height:1.4}
+.sec2{margin-top:5mm;padding-top:4.5mm;border-top:1px solid var(--line)}
+.ticks{list-style:none;margin:3mm 0 0;padding:0}
+.ticks li{position:relative;padding:0 0 1.8mm 6mm;font-size:9.1pt;color:var(--ink2);line-height:1.45}
+.ticks li::before{content:"";position:absolute;left:0;top:1.9mm;width:2.2mm;height:2.2mm;border-radius:50%;background:var(--ember)}
+.ticks strong{color:var(--ink);font-weight:600}
+.report{display:block;margin:2.5mm 0 3mm;background:var(--forest2);color:#f4f0e6;padding:5mm 6mm;border-radius:2mm}
+.report .mono{color:#a9c4b4;display:block;margin-bottom:2mm}
+.report b{font-family:var(--display);font-weight:400;font-size:11.5pt;line-height:1.3;display:block}
+.report small{display:block;margin-top:2.5mm;font-family:var(--mono);font-size:7pt;letter-spacing:.06em;color:#e9a56a}
+.note{font-size:8.2pt;color:var(--muted);line-height:1.45}
+.contact{margin-top:5mm;padding-top:4mm;border-top:1px solid var(--line);display:flex;justify-content:space-between;align-items:flex-end;gap:8mm}
+.contact h2{font-size:15pt;margin:0 0 1.5mm}
+.contact p{margin:0;font-size:9.4pt}
+.contact .who{text-align:right;font-size:9.4pt;line-height:1.5}
+.contact .who b{font-family:var(--display);font-weight:400;font-size:12pt;display:block}
+</style></head>
+<body>
+
+<section class="page">
+  <div class="top">
+    <div class="mono"><span>Kenneth Manuel // Project brief</span><span>Flagship project</span></div>
+    <h1>The Search for Luzon&rsquo;s <em>Lost Bird</em></h1>
+    <p class="lead">A conservation research project investigating the status and distribution of two of the Philippines&rsquo; most elusive endemic birds.</p>
+  </div>
+  <div class="photo"><img src="../images/ken/ken15.jpg" alt=""><span class="mono cap">Field team scanning the forest canopy // Nueva Vizcaya</span></div>
+  <dl class="meta">
+    <div><dt>Role</dt><dd>Principal Investigator &amp; Project Lead</dd></div>
+    <div><dt>Period</dt><dd>2026 &ndash; present</dd></div>
+    <div><dt>Where</dt><dd>Santa Fe, Nueva Vizcaya<br>16.17&deg;N 120.93&deg;E</dd></div>
+    <div><dt>Funding</dt><dd>Oriental Bird Club Conservation Grant</dd></div>
+  </dl>
+  <div class="body1">
+    <div class="label">01 &mdash; The question</div>
+    <div>
+      <h2>Two birds almost <em>no one</em> sees</h2>
+      <p class="big">The Luzon Buttonquail and the Luzon Rail are found nowhere else on Earth, and both are poorly documented and data deficient. Without knowing where they persist, it is hard to protect them.</p>
+      <p>The project sets out to establish the status and distribution of both species in the mountains of Nueva Vizcaya, working with the people who live there. Kenneth conceived the research concept and co-developed the proposal with the research team.</p>
+      <div class="species">
+        <div class="sp"><h3>Luzon Buttonquail</h3><i>Turnix worcesteri</i><p>Philippine endemic. Elusive and rarely recorded.</p></div>
+        <div class="sp"><h3>Luzon Rail</h3><i>Lewinia mirifica</i><p>Philippine endemic. Presence documented by this project.</p></div>
+      </div>
+      <p style="margin-top:5mm"><b style="color:var(--ink)">Partners:</b> Kalahan Educational Foundation, NTFP-EP Asia and the Municipality of Santa Fe.</p>
+    </div>
+  </div>
+  <div class="foot mono"><span>kenmanuel02.12@gmail.com</span><span>1 / 2</span></div>
+</section>
+
+<section class="page">
+  <div class="p2">
+    <div class="mono k">02 &mdash; The approach</div>
+    <h2 style="margin-top:1.5mm">Five ways of looking for a bird that <em>hides</em></h2>
+    <p>A multidisciplinary team combining field ecology with local knowledge, established and coordinated by Kenneth.</p>
+    <ol class="methods">
+      <li data-n="01"><div><b>Transect surveys</b><span>Walking set routes to record birds seen and heard.</span></div></li>
+      <li data-n="02"><div><b>Camera traps</b><span>Motion-triggered cameras watching the ground where shy species move.</span></div></li>
+      <li data-n="03"><div><b>Passive acoustic monitoring</b><span>Recorders listening for calls around the clock.</span></div></li>
+      <li data-n="04"><div><b>Mist-netting</b><span>Safe capture, identification and release.</span></div></li>
+      <li data-n="05"><div><b>Community interviews</b><span>Local ecological knowledge from the people who know the land best.</span></div></li>
+    </ol>
+
+    <div class="sec2">
+      <div class="mono k">03 &mdash; So far</div>
+      <h2 style="margin-top:1.5mm">What the project has found</h2>
+      <ul class="ticks">
+        <li><strong>Luzon Rail documented.</strong> Field evidence confirms the species&rsquo; presence, adding to knowledge of its distribution and informing future conservation priorities.</li>
+        <li><strong>Local partnerships built.</strong> Work with partners supports research access, community engagement and locally supported conservation.</li>
+        <li><strong>Findings shared.</strong> As first author of the collaborative project report, Kenneth coordinated presentations and outreach materials for local government and community stakeholders.</li>
+      </ul>
+    </div>
+
+    <div class="sec2">
+      <div class="mono k">04 &mdash; Field report</div>
+      <h2 style="margin-top:1.5mm">Told by our partners</h2>
+      <p style="margin-bottom:0">First survey: 14&ndash;23 July 2026, Imugan and Bantinan, Santa Fe (Kalanguya-Ikalahan Ancestral Domain).</p>
+      <a class="report" href="https://ntfp.org/exchange_news/searching-for-luzons-lost-birds-blog-2026/"><span class="mono">NTFP-EP Asia // Blog // 28 October 2026</span><b>Searching for Luzon&rsquo;s Lost Birds: What the Forests of the Kalanguya-Ikalahan Ancestral Domain Revealed</b><small>ntfp.org/exchange_news/searching-for-luzons-lost-birds-blog-2026</small></a>
+      <ul class="ticks" style="margin-top:0">
+        <li><strong>99 bird species</strong> recorded across the two barangays.</li>
+        <li><strong>Luzon Rail confirmed in Imugan</strong>, verified by avian experts Desmond Allen and Dr. Jelaine Gan. The report notes that the findings do not establish abundance, distribution or population status.</li>
+        <li><strong>Possible Luzon Buttonquail.</strong> A ground-dwelling bird in a Bantinan camera trap resembles the species; identity unconfirmed.</li>
+        <li><strong>Bukidnon Woodcock.</strong> Two birds on camera in Bantinan, possibly the first evidence in Nueva Vizcaya since the late 1960s.</li>
+      </ul>
+      <p class="note">Summary of the NTFP-EP Asia report by Sunshine Telio; please refer to the original for full detail.</p>
+    </div>
+
+    <div class="contact">
+      <div><h2>Talk about this project</h2><p>Collaboration, funding or fieldwork: get in touch.</p></div>
+      <div class="who"><b>Kenneth Manuel</b>kenmanuel02.12@gmail.com</div>
+    </div>
+  </div>
+  <div class="foot mono"><span>The Search for Luzon&rsquo;s Lost Bird</span><span>2 / 2</span></div>
+</section>
+</body></html>
