@@ -1,0 +1,49 @@
+Third-party material used on this site
+=======================================
+
+Photographs
+-----------
+All photographs are (c) Kenneth Manuel / Peliken.
+
+Icons
+-----
+Line icons are from Lucide (https://lucide.dev), ISC licence; the licence text is in src/icons/LICENSE-lucide.txt.
+The whale icon is from Lucide Lab (@lucide/lab), ISC licence.
+
+Fonts (fonts/)
+--------------
+Fraunces, IBM Plex Mono and Instrument Sans, self-hosted, each under the SIL Open Font License 1.1.
+
+World map outlines
+------------------
+Natural Earth (https://www.naturalearthdata.com), public domain, delivered as TopoJSON via the
+world-atlas package v2.0.2 (https://github.com/topojson/world-atlas, ISC licence). The Journey and home-page maps are
+drawn from these files; no tiles or external map services are used.
+
+Background silhouettes
+----------------------
+Animal silhouettes come from PhyloPic (https://www.phylopic.org), public domain (PDM 1.0) or CC0 1.0, except the
+Irrawaddy dolphin (Orcaella brevirostris) by Chris huh, CC BY-SA 3.0. Authors, where credited, include Margot Michaud,
+Steven Traver, Ferran Sayol, Michael Day, Anthony Caravaggi, Andy Wilson, Matthew Speight, M Kolmann and
+Mathieu Pelissie. Source records for every silhouette are listed in src/sil/_sources.txt. The branch and vine
+drawings are original.
+
+Textures
+--------
+Forest leaf-litter texture: Poly Haven 'forest_leaves_03' (CC0). Sea-foam texture: ambientCG 'Foam001' (CC0).
+
+Bird sounds (audio/, photo viewer)
+----------------------------------
+Recordings are used unmodified. Each player credits the recordist, place and licence. Sources are Xeno-canto
+(https://xeno-canto.org) and Wikimedia Commons. Most Xeno-canto licences are non-commercial (CC BY-NC-SA / BY-NC-ND):
+if the site is ever used commercially, replace them with the owner's own recordings.
+Xeno-canto numbers: XC23085, XC442776, XC403744, XC812270, XC281900, XC542842, XC432231, XC477972, XC476785, XC308912,
+XC67542, XC897528, XC813704, XC824708, XC23082, XC897079, XC442739, XC896895, XC57580, XC321478, XC182006, XC818151,
+XC791864, XC804507, XC346389, XC269959. The Xeno-canto page for each number gives the full credit.
+
+Place sounds (audio/places/, Journey page)
+------------------------------------------
+Field recordings, credited under the player on each stop. Xeno-canto soundscapes XC563580, XC762388, XC313786,
+XC181246, XC1106596 (two sections) and XC813894 (CC BY-NC-SA 4.0 or BY-NC-ND 4.0; some are shortened to their first
+minute or so, the BY-NC-ND one is whole). Freesound recordings, all CC0: 690383, 577326, 784465, 534910, 277480,
+754995, 362414.
