@@ -11,7 +11,7 @@ window.I18N_TL = {
   "Kenneth Manuel": "",
   "Work": "",
   "Journey": "",
-  "Photography": "",
+  "Photography": "Litrato",
   "About": "",
   "Contact": "",
   "<b class=\"who\">Kenneth Manuel</b><span class=\"sep\"> &nbsp;/&nbsp; </span>Researcher // Photographer // Conservationist": "",
