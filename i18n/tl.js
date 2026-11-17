@@ -8,7 +8,7 @@ window.I18N_TL = {
   // ---- index.html (96 texts) ----
   "Kenneth Manuel — Marine & Wildlife Conservation Researcher": "",
   "Skip to content": "",
-  "Kenneth Manuel": "",
+  "Kenneth Manuel": "Кен Мануэль",
   "Work": "",
   "Journey": "",
   "Photography": "Litrato",
