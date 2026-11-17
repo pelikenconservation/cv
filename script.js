@@ -25,7 +25,6 @@
     nuthatch: { xc: '897079', by: 'Greg Irving', where: 'Sagada, Luzon', lic: 'CC BY-NC-SA 4.0' },
     emeralddove: { xc: '442739', by: 'Brendan Sloan', where: 'Davao, Mindanao', lic: 'CC BY-NC-SA 4.0' },
     bushchat: { xc: '896895', by: 'Greg Irving', where: 'Mount Data, Luzon', lic: 'CC BY-NC-SA 4.0' },
-    cyornis: { xc: '57580', by: 'Frank Lambert', where: 'Mt Hamut, Sierra Madre, Luzon', lic: 'CC BY-NC-ND 4.0' },
     mangroveflyc: { xc: '321478', by: 'Brendan Sloan', where: 'La Mesa Eco Park, Quezon City', lic: 'CC BY-NC-SA 4.0' },
     sunbird2: { xc: '182006', by: 'Stijn De Win', where: 'Leyte (a different subspecies)', lic: 'CC BY-NC-SA 4.0' },
     narcissus: { xc: '818151', by: 'Kim Chuah Lim', where: 'Nagano, Japan (breeding range)', lic: 'CC BY-NC-SA 4.0' },
@@ -47,7 +46,7 @@
   var SND = { bird14: 'robin', bird28: 'heron', bird18: 'heron', bird09: 'kingfisher', bird10: 'chaffinch',
     bird29: 'owl', bird12: 'tit', bird37: 'treeswift', bird25: 'coucal', bird19: 'whiteeye',
     bird21: 'hornbill', bird17: 'flagrans', bird36: 'pitta', bird32: 'serpenteagle', bird15: 'fairybluebird', bird30: 'tailorbird',
-    bird31: 'nuthatch', bird06: 'emeralddove', bird24: 'bushchat', bird01: 'cyornis', bird02: 'cyornis', bird04: 'mangroveflyc',
+    bird31: 'nuthatch', bird06: 'emeralddove', bird24: 'bushchat', bird04: 'mangroveflyc',
     bird20: 'sunbird2', bird22: 'narcissus', bird13: 'longeared', bird16: 'ferruginous', bird33: 'striated', bird38: 'fruitdove' };
 
   /* ---------- Sound player (one recording at a time) ---------- */
@@ -106,8 +105,8 @@
     ['bird14', 'Eurasian Robin', 'Erithacus rubecula', 'sp'],
     ['bird03', 'Brahminy Kite', 'Haliastur indus', 'so'],
     ['bird23', 'Northern Philippine Dwarf Kingfisher', 'Ceyx melanurus', 'sf'],
-    ['bird07', 'Chestnut-cheeked Babbler', '', 'sp'],
-    ['bird26', 'Philippine Hawk-Eagle', 'Nisaetus philippensis', 'so'],
+    ['bird07', 'Chestnut-faced Babbler', 'Zosterornis whiteheadi', 'sp'],
+    ['bird26', 'Philippine Eagle', 'Pithecophaga jefferyi', 'so'],
     ['bird05', 'Black-naped Monarch', 'Hypothymis azurea', 'sf'],
     ['bird29', 'Philippine Scops Owl', 'Otus megalotis', 'sp'],
     ['bird28', 'Grey Heron', 'Ardea cinerea', 'sp'],
@@ -115,25 +114,25 @@
     ['bird12', 'Elegant Tit', 'Pardaliparus elegans', 'sf'],
     ['bird18', 'Grey Heron', 'Ardea cinerea', 'so'],
     ['bird09', 'Common Kingfisher', 'Alcedo atthis', 'sf'],
-    ['bird35', 'Trogon', '', 'sf'],
+    ['bird35', 'Philippine Trogon', 'Harpactes ardens', 'sf'],
     ['bird37', 'Whiskered Treeswift', 'Hemiprocne comata', 'so'],
     ['bird25', 'Philippine Coucal', 'Centropus viridis', 'f'],
     ['bird10', 'Common Chaffinch', 'Fringilla coelebs', 'f'],
     ['bird13', 'Long-eared Owl', 'Asio otus', 'p'], ['bird17', 'Flaming Sunbird', 'Aethopyga flagrans', 'p'], ['bird33', 'Striated Heron', 'Butorides striata', 'o'],
-    ['bird08', 'Chestnut-faced Bulbul', '', 'f'], ['bird19', 'Lowland White-eye', 'Zosterops meyeni', 'f'],
-    ['bird15', 'Philippine Fairy-bluebird', 'Irena cyanogastra', 'f'], ['bird36', 'Hooded Pitta', 'Pitta sordida', 'f'],
+    ['bird08', 'Brown-eared Bulbul', 'Hypsipetes amaurotis', 'f'], ['bird19', 'Lowland White-eye', 'Zosterops meyeni', 'f'],
+    ['bird15', 'Philippine Fairy-bluebird', 'Irena cyanogastra', 'f'], ['bird36', 'Western Hooded Pitta', 'Pitta sordida', 'f'],
     ['bird20', 'Metallic-winged Sunbird', 'Aethopyga pulcherrima', 'f'], ['bird21', 'Luzon Hornbill', 'Penelopides manillae', 'f'],
     ['bird38', 'Yellow-breasted Fruit Dove', 'Ptilinopus occipitalis', 'f'], ['bird04', 'Mangrove Blue Flycatcher', 'Cyornis rufigastra', 'f'],
     ['bird22', 'Narcissus Flycatcher', 'Ficedula narcissina', 'f'], ['bird11', 'Calayan Rail', 'Aptenorallus calayanensis', 'f'],
     ['bird30', 'Rufous-fronted Tailorbird', 'Orthotomus frontalis', 'f'], ['bird31', 'Sulphur-billed Nuthatch', 'Sitta oenochlamys', 'f'],
     ['bird32', 'Philippine Serpent Eagle', 'Spilornis holospilus', 'f'], ['bird16', 'Ferruginous Flycatcher', 'Muscicapa ferruginea', 'f'],
-    ['bird24', 'Pied Bushchat', 'Saxicola caprata', 'f'], ['bird01', 'Blue-breasted Blue Flycatcher', 'Cyornis herioti', 'f'],
-    ['bird02', 'Blue-breasted Blue Flycatcher', 'Cyornis herioti', 'f'], ['bird06', 'Common Emerald Dove', 'Chalcophaps indica', 'f'],
-    ['bird27', '', '', 'f']
+    ['bird24', 'Pied Bushchat', 'Saxicola caprata', 'f'], ['bird01', 'Bundok Flycatcher', 'Ficedula luzoniensis', 'f', 'Female'],
+    ['bird02', 'Bundok Flycatcher', 'Ficedula luzoniensis', 'f', 'Juvenile'], ['bird06', 'Common Emerald Dove', 'Chalcophaps indica', 'f'],
+    ['bird27', 'Philippine Jungle Flycatcher', 'Cyornis ruficauda', 'f']
   ].map(function (b) {
     var snd = SOUNDS[SND[b[0]]];
-    return { t: 'images/birds/t/' + b[0] + '.webp', f: 'images/birds/' + b[0] + '.webp', c: b[1], l: b[2], tags: b[3], fam: FAM_OF[b[0]] || '', s: snd || null,
-      a: b[1] ? b[1] + ', photographed by Kenneth Manuel' : 'Bird photographed by Kenneth Manuel' };
+    return { t: 'images/birds/t/' + b[0] + '.webp', f: 'images/birds/' + b[0] + '.webp', c: b[1], l: b[2], tags: b[3], fam: FAM_OF[b[0]] || '', s: snd || null, n: b[4] || '',
+      a: b[1] ? b[1] + (b[4] ? ' (' + b[4].toLowerCase() + ')' : '') + ', photographed by Kenneth Manuel' : 'Bird photographed by Kenneth Manuel' };
   });
 
   /* ---------- Species counter + log ---------- */
@@ -229,7 +228,7 @@
       var it = cur[idx];
       lbImg.src = it.f; lbImg.alt = it.a;
       lbCap.innerHTML = '';
-      if (it.c) { var b = document.createElement('b'); b.textContent = it.c; lbCap.appendChild(b); }
+      if (it.c) { var b = document.createElement('b'); b.textContent = capText(it); lbCap.appendChild(b); }
       if (it.l) { var i = document.createElement('i'); i.textContent = it.l; lbCap.appendChild(i); }
       var n = document.createElement('span'); n.textContent = (idx + 1) + ' / ' + cur.length; lbCap.appendChild(n);
       (new Image()).src = cur[(idx + 1) % cur.length].f;
@@ -289,6 +288,7 @@
   }
 
   /* ---------- Galleries ---------- */
+  function capText(it) { return it.c + (it.n ? ' (' + it.n.toLowerCase() + ')' : ''); }
   function build(container, items, withCaption) {
     container.innerHTML = '';
     items.forEach(function (it, i) {
@@ -305,7 +305,7 @@
       fig.appendChild(img);
       if (withCaption && it.c) {
         var cap = document.createElement('figcaption');
-        var b = document.createElement('b'); b.textContent = it.c; cap.appendChild(b);
+        var b = document.createElement('b'); b.textContent = capText(it); cap.appendChild(b);
         if (it.l) { var l = document.createElement('i'); l.textContent = it.l; cap.appendChild(l); }
         fig.appendChild(cap);
       }
