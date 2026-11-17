@@ -43,7 +43,7 @@ window.I18N_TL = {
   "I’m most interested in practical, locally driven conservation: research that strengthens capacity in the Philippines and bridges science and communities.": "",
   "More about Kenneth": "",
   "02 — Flagship project // 2026 – present": "",
-  "The Search for Luzon’s <em>Lost Bird</em>": "",
+  "The Search for Luzon’s <em>Lost Birds</em>": "",
   "A conservation research project I conceived and lead, investigating two of the Philippines’ most elusive endemic birds: the Luzon Buttonquail and the Luzon Rail.": "",
   "Role": "",
   "Principal Investigator &amp; Project Lead": "",
